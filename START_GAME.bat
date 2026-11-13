@@ -1,0 +1,10 @@
+@echo off
+title PROJECT AURORA
+echo ========================================================
+echo   STARTING PROJECT AURORA SERVER
+echo ========================================================
+echo Server starting at http://localhost:8080/ ...
+cd /d "%~dp0"
+start "" "http://localhost:8080/"
+node server.js
+pause
